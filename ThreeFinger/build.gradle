@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        //多渠道打包，步骤3：添加发布用的签名文件
+        release {
+            keyAlias 'testkeystore'
+            keyPassword '123456'
+            storeFile file('C:/Users/dongrp/Desktop/testkey.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0"
+    defaultConfig {
+        applicationId "transage.com.myapplication"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release //多渠道打包，步骤4：指定签名文件为release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    //多渠道打包，步骤2：配置各个发布渠道
+    productFlavors {
+        xiaomi {}
+        qihu360 {}
+        baidu {}
+        wandoujia {}
+    }
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+}

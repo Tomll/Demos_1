@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.myapplication.VDHLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="#885500"
+        android:text="I can be dragged 111!"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="#44ff0000"
+        android:text="I can be dragged 222!"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="#44ff00"
+        android:text="I can be dragged 333!"/>
+
+</com.example.myapplication.VDHLayout>

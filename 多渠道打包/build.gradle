@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    //多渠道打包步骤3：配置发布用的签名文件
+    signingConfigs {
+        release {
+            keyAlias 'testkeystore'
+            keyPassword '123456'
+            storeFile file('C:/Users/dongrp/Desktop/testkey.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
+    defaultConfig {
+        applicationId "transage.com.duoqudaodabao"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            //多渠道打包步骤4：指定签名文件为正式发布用签名文件release
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    //多渠道打包步骤2：配置各个发布渠道
+    productFlavors {
+        xiaomi {}
+        baidu {}
+        wandoujia {}
+    }
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+}

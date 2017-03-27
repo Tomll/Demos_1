@@ -1,0 +1,30 @@
+<html>
+Java-Javascript Interaction In Android<br><br>
+（在Android应用中进行Java与JavaScript的交互）<br><br>
+<button id="btn" onclick="callUp()">电话：18611360958</button>
+
+<script type="text/javascript">
+    function sayHello() {
+        alert("Hello")
+    }
+
+    function alertMessage(message) {
+        alert(message)
+    }
+
+    function toastMessage(message) {
+        window.control.toastMessage(message)
+    }
+
+    function sumToJava(number1, number2){
+       window.control.onSumResult(number1 + number2)
+    }
+
+    function callUp(){
+        window.control.callUp("18611360958")
+    }
+
+
+</script>
+
+</html>
