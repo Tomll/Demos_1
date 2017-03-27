@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/3DGallery/3DGallery.iml" filepath="$PROJECT_DIR$/3DGallery/3DGallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_JavaScrpipt_Interaction/Android_JavaScrpipt_Interaction.iml" filepath="$PROJECT_DIR$/Android_JavaScrpipt_Interaction/Android_JavaScrpipt_Interaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoLayout/AutoLayout.iml" filepath="$PROJECT_DIR$/AutoLayout/AutoLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoScrollTextView/AutoScrollTextView.iml" filepath="$PROJECT_DIR$/AutoScrollTextView/AutoScrollTextView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoordinatorLayout/CoordinatorLayout.iml" filepath="$PROJECT_DIR$/CoordinatorLayout/CoordinatorLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVP/MVP.iml" filepath="$PROJECT_DIR$/MVP/MVP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVP_Retrofit_Rxjava/MVP_Retrofit_Rxjava.iml" filepath="$PROJECT_DIR$/MVP_Retrofit_Rxjava/MVP_Retrofit_Rxjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVVM/MVVM.iml" filepath="$PROJECT_DIR$/MVVM/MVVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Retrofit+RxJava/Retrofit+RxJava.iml" filepath="$PROJECT_DIR$/Retrofit+RxJava/Retrofit+RxJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Retrofit2.0/Retrofit2.0.iml" filepath="$PROJECT_DIR$/Retrofit2.0/Retrofit2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxJava/RxJava.iml" filepath="$PROJECT_DIR$/RxJava/RxJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SensorManager_PowerManager/SensorManager_PowerManager.iml" filepath="$PROJECT_DIR$/SensorManager_PowerManager/SensorManager_PowerManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreeFinger/ThreeFinger.iml" filepath="$PROJECT_DIR$/ThreeFinger/ThreeFinger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UpdateContacts/UpdateContacts.iml" filepath="$PROJECT_DIR$/UpdateContacts/UpdateContacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewDragHelper/ViewDragHelper.iml" filepath="$PROJECT_DIR$/ViewDragHelper/ViewDragHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app开机自启动/app开机自启动.iml" filepath="$PROJECT_DIR$/app开机自启动/app开机自启动.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coordinator2/coordinator2.iml" filepath="$PROJECT_DIR$/coordinator2/coordinator2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/多渠道打包/多渠道打包.iml" filepath="$PROJECT_DIR$/多渠道打包/多渠道打包.iml" />
+      <module fileurl="file://$PROJECT_DIR$/短信拦截+邮件发送/短信拦截+邮件发送.iml" filepath="$PROJECT_DIR$/短信拦截+邮件发送/短信拦截+邮件发送.iml" />
+      <module fileurl="file://$PROJECT_DIR$/长时间通话灭屏/长时间通话灭屏.iml" filepath="$PROJECT_DIR$/长时间通话灭屏/长时间通话灭屏.iml" />
+    </modules>
+  </component>
+</project>
